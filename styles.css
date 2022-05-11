@@ -1,0 +1,50 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+p {
+	color: black;
+}
+.nicolelaloca {
+	margin-top: 0%;
+}
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	margin: 0%;
+	width: 100%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-right {
+	border-bottom: grey;
+
+	padding: 3px;
+}
+.body-left {
+	padding: 3px;
+}
+.postcard-footer {
+	text-align: center;
+}
+.boton {
+	background-color: darkslategray;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+}
